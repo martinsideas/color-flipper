@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h4 {
+    text-align: center;
+    font-size: 10vmin;
+    margin: 10vmin 0;
+}
+.container{
+    background-color: black;
+    color: white;
+    width: 80vmin;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5vmin;
+    border-radius: 2vmin;
+    border: none;
+}
+
+.changer{
+    display: flex;
+    margin: 5vmin auto;
+
+    .btn{
+        padding: 3.5vmin 7vmin 3.5vmin 7vmin;
+        margin: 4vmin auto;
+        border: 4px solid black;
+        border-radius: 2vmin;
+    }
+}
+
+    
